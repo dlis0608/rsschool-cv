@@ -1,0 +1,230 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+
+  border: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+[hidden] {
+  display: none;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: "Roboto", "Tahoma", sans-serif;
+}
+.wrap {
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  position: fixed;
+
+  width: 100%;
+
+  background: #1d00b7;
+}
+.top-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-nav a {
+  display: block;
+  padding: 7px 15px;
+
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+}
+.top-nav a:hover {
+  color: #ff00f0;
+}
+.main {
+  padding-top: 55px;
+}
+.main h1 {
+  margin-bottom: 25px;
+
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+.section {
+  margin-bottom: 50px;
+  padding: 25px;
+
+  border-radius: 7px;
+  box-shadow: 0 0 106px 0 rgba(160, 177, 185, 0.22);
+}
+.section h2 {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.section li {
+  margin-bottom: 7px;
+
+  list-style: disc;
+}
+.section a {
+  color: #ff00f0;
+}
+.section a:hover {
+  text-decoration: none;
+}
+.section p {
+  margin-bottom: 15px;
+
+  line-height: 1.4;
+}
+.section img {
+  float: left;
+  margin: 0 30px 10px 0;
+
+  border-radius: 7px;
+  box-shadow: 0 0 10px 0 rgba(160, 177, 185, 0.22);
+}
+.section::after {
+  content: "";
+
+  display: table;
+  clear: both;
+  width: 100%;
+}
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  background: #1d00b7;
+}
+.copyright {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
