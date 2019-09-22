@@ -33,3 +33,14 @@ if (a == 5) {
   return true
 }
 ```
+## Experience
+
+* Web studio [Wingsstudio](https://wingsstudio.ru) - 2014 - today, web developer
+* Internet Agency [WebArmada](https://webarmada.ru) - 2018 - today, web developer
+
+## Education
+Kursk State Medical University, economist-manager
+
+## English level
+
+All tests said me that my english level is A2, but I think they flatter me.
